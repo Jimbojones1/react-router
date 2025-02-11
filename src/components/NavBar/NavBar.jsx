@@ -1,10 +1,10 @@
 // src/components/NavBar/NavBar.jsx
-
+import './NavBar.css'
 import { Link } from "react-router";
 
 const NavBar = () => {
     return (
-        <nav>
+        <nav className='navbar'>
             <ul>
                 <li>
                     <Link to='/'>Home</Link>
